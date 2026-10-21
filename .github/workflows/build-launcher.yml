@@ -35,6 +35,12 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
+      - name: Sign APK with committed keystore
+        run: |
+          "$ANDROID_HOME/build-tools/34.0.0/apksigner" sign \
+            --ks launcher/keystore/tvhome.p12 --ks-type PKCS12 --ks-pass pass:android --key-pass pass:android \
+            --out launcher/app/build/outputs/apk/release/app-release.apk \
+            launcher/app/build/outputs/apk/release/app-release-unsigned.apk
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
