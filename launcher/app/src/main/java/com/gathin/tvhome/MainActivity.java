@@ -12,6 +12,8 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.ResolveInfo;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -298,9 +300,23 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         }
     };
 
+    /** Forces the launcher's UI language from config.xml (values/config.xml, key "language"); empty = follow the TV. */
+    private void applyLanguage() {
+        String lang = getString(R.string.language);
+        if (lang == null || lang.isEmpty()) return;
+        Locale locale = Locale.forLanguageTag(lang);
+        if (locale.getLanguage().isEmpty()) return;
+        Locale.setDefault(locale);
+        Resources res = getResources();
+        Configuration cfg = new Configuration(res.getConfiguration());
+        cfg.setLocale(locale);
+        res.updateConfiguration(cfg, res.getDisplayMetrics());
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        applyLanguage();
         setContentView(R.layout.activity_main);
         density = getResources().getDisplayMetrics().density;
         // config.xml, overlaid by config.json from a pushed theme (see Config and tools/theme.sh).

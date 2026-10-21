@@ -7,6 +7,9 @@
 -->
 <resources>
 
+    <!-- Force the launcher UI language (BCP 47). Empty = follow the TV's language. -->
+    <string name="language" translatable="false">ru</string>
+
     <!-- Apps pinned to the dock row at the bottom, in this order. Missing apps are skipped. -->
     <string-array name="dock_apps">
         <item>com.google.android.youtube.tv</item>
