@@ -17,7 +17,7 @@
     <string name="festival_dussehra_greeting">Зі святом Дашехра!</string>
     <string name="festival_diwali_greeting">Зі святом Дівалі!</string>
     <string name="ethernet">Ethernet</string>
-    <string name="offline">Немає мережі</string>
+    <string name="offline">Не в мережі</string>
     <string name="not_available">Недоступно на цьому телевізорі</string>
     <string name="cant_open">Не вдалося відкрити %1$s</string>
     <string name="date_format">EEEE, d MMMM</string>
@@ -36,14 +36,14 @@
     <string name="shamsi_month_esfand">есфанда</string>
     <string name="stats_cpu">CPU %1$d%%</string>
     <string name="stats_memory">Пам\'ять %1$d / %2$d МБ</string>
-    <string name="stats_storage">Накопичувач: вільно %1$s</string>
+    <string name="stats_storage">Сховище: вільно %1$s</string>
     <string name="storage_gb_whole">%1$.0f ГБ</string>
     <string name="storage_gb_decimal">%1$.1f ГБ</string>
     <string name="dream_name">Годинник</string>
     <string name="vpn">VPN</string>
     <string name="vpn_off">VPN вимкнено</string>
     <string name="home_settings">Вибір головного екрана</string>
-    <string name="home_settings_help">Виберіть оригінальний головний екран, щоб більше не використовувати CleanYourTV як Home, або CleanYourTV, щоб повернутися. Оригінальний лаунчер має бути увімкнений, а телевізор має показувати вибір головного екрана; якщо його було вимкнено, спершу скористайтеся скриптом відновлення.</string>
+    <string name="home_settings_help">Виберіть оригінальний головний екран, щоб більше не використовувати CleanYourTV як головний екран, або CleanYourTV, щоб повернутися. Оригінальний головний екран має бути увімкнений, а телевізор має показувати вибір головного екрана; якщо його було вимкнено, спершу скористайтеся скриптом відновлення.</string>
     <string name="launcher_settings">Налаштування лаунчера</string>
     <string name="columns_label">Програм у рядку</string>
     <string name="rows_below_dock_label">Рядків під доком</string>
@@ -55,9 +55,9 @@
     <string name="animations_state">Анімації: %1$s</string>
     <string name="advanced_effects">Розширені ефекти</string>
     <string name="advanced_effects_state">Розширені ефекти: %1$s</string>
-    <string name="advanced_effects_warning">Додає підняту плитку, збільшення іконок і плавні переходи кольору. Може збільшити використання пам\'яті; фактична різниця залежить від вашого телевізора.</string>
+    <string name="advanced_effects_warning">Додає ефект піднятої плитки, збільшення іконок і плавні переходи кольору. Може збільшити використання пам\'яті; фактична різниця залежить від вашого телевізора.</string>
     <string name="follow_theme">Як у темі (скидання вибору на ТБ)</string>
-    <string name="follow_theme_hint">Використовує поточну тему або вбудовані налаштування розкладки й анімації. Надсилання чи скидання теми також очищує ваш вибір на телевізорі.</string>
+    <string name="follow_theme_hint">Використовує поточну тему або вбудовані налаштування розкладки й анімації. Застосування чи скидання теми також очищує ваш вибір на телевізорі.</string>
     <string name="tv_settings">Системні налаштування ТБ</string>
     <string name="quick_picture">Зображення</string>
     <string name="quick_network">Мережа</string>
@@ -68,12 +68,12 @@
     <string name="enable">Увімкнути</string>
     <string name="input_key_service_description">Відкриває перемикач джерел під час натискання кнопки Input на пульті.</string>
     <string name="home_key_name">Кнопка Home</string>
-    <string name="home_key_description">Змушує кнопку Home на пульті відкривати цей лаунчер.</string>
+    <string name="home_key_description">Робить так, що кнопка Home на пульті відкриває цей лаунчер.</string>
     <string name="card_prompt_title">Нова картка від %1$s</string>
     <string name="card_prompt_body">%1$s може показувати картку на головному екрані. Якщо залишити її прихованою, звичайна плитка програми не зміниться.</string>
     <string name="card_prompt_names">Картка має назву «%1$s». Програма — «%2$s».</string>
-    <string name="card_prompt_resigned">%1$s оновлено з іншим ключем підпису, тому ваш попередній вибір більше не діє. Виберіть знову для її картки.</string>
-    <string name="card_prompt_relabelled">%1$s змінила назву своєї картки після вашого вибору. Виберіть знову для неї.</string>
+    <string name="card_prompt_resigned">%1$s оновлено з іншим ключем підпису, тому ваш попередній вибір більше не діє. Виберіть ще раз щодо її картки.</string>
+    <string name="card_prompt_relabelled">Назву картки для %1$s змінено після вашого вибору. Виберіть ще раз.</string>
     <string name="card_prompt_hint">Це можна змінити пізніше: утримуйте OK на «Налаштуваннях», потім виберіть «Картки модулів».</string>
     <string name="card_prompt_identity">%1$s, ключ %2$s</string>
     <string name="card_keep_hidden">Залишити прихованою</string>
@@ -83,7 +83,7 @@
     <string name="no_module_cards">Карток модулів не встановлено</string>
     <string name="card_app_name">Програма: %1$s</string>
     <string name="card_state_shown">Показано</string>
-    <string name="card_state_over_limit">Показано, понад ліміт 8</string>
+    <string name="card_state_over_limit">Показано, понад ліміт 8 карток</string>
     <string name="card_state_hidden">Приховано</string>
     <string name="card_state_new">Нова</string>
     <string name="card_state_new_key">Новий ключ</string>
@@ -95,7 +95,7 @@
     <string name="reorder_hint">OK бере програму, стрілки переміщують, Назад ставить на місце. Ще раз Назад — завершити.</string>
     <string name="reorder_not_saved">Не вдалося зберегти новий порядок</string>
     <string name="app_library">Бібліотека програм</string>
-    <string name="library_empty">Запускних програм не знайдено</string>
+    <string name="library_empty">Не знайдено програм, які можна запустити</string>
     <string name="library_on_home">На головному екрані</string>
     <string name="library_add_home">Додати на головний екран</string>
     <string name="library_remove_shortcut">Прибрати з головного екрана</string>
@@ -120,17 +120,17 @@
     <string name="race_lights_out">Старт гонки через %1$s</string>
     <string name="race_live">%1$s · наживо</string>
     <string name="race_finished">Картатий прапор</string>
-    <string name="race_practice_1">Тренування 1</string>
-    <string name="race_practice_2">Тренування 2</string>
-    <string name="race_practice_3">Тренування 3</string>
+    <string name="race_practice_1">Вільний заїзд 1</string>
+    <string name="race_practice_2">Вільний заїзд 2</string>
+    <string name="race_practice_3">Вільний заїзд 3</string>
     <string name="race_sprint_qualifying">Кваліфікація спринту</string>
     <string name="race_sprint">Спринт</string>
     <string name="race_qualifying">Кваліфікація</string>
     <string name="race_race">Гонка</string>
-    <string name="race_practice_1_short">Т1</string>
-    <string name="race_practice_2_short">Т2</string>
-    <string name="race_practice_3_short">Т3</string>
-    <string name="race_sprint_qualifying_short">КС</string>
+    <string name="race_practice_1_short">ВЗ1</string>
+    <string name="race_practice_2_short">ВЗ2</string>
+    <string name="race_practice_3_short">ВЗ3</string>
+    <string name="race_sprint_qualifying_short">СК</string>
     <string name="race_sprint_short">СПРИНТ</string>
     <string name="race_qualifying_short">КВАЛ.</string>
     <string name="race_race_short">ГОНКА</string>
@@ -139,5 +139,5 @@
     <string name="race_countdown_days">%1$d дн %2$d год</string>
     <!-- Cinematic top shelf (cinematic_home): the line under the focused dock app's name; %1$s is when it was
          last opened, e.g. "5 minutes ago" or "yesterday, 9:40 pm". -->
-    <string name="last_opened">Останній запуск: %1$s</string>
+    <string name="last_opened">Востаннє відкрито %1$s</string>
 </resources>
